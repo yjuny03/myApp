@@ -18,7 +18,7 @@ import NotFoundPage from "../pages/NotFoundPage";
 function AppRouter() {
     return (
         <AppProvider>
-            <BrowserRouter>
+            <BrowserRouter basename="/myApp">
                 <Header />
                 <ToastContainer />
 
